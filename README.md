@@ -2,6 +2,10 @@
  ===
  基于vue-cli全家桶，包括vue-resource，vuex，vue-router,webpack3
  ---
+ 线上地址
+ ---
+ http://www.kuangjifix.com/svip.html#/<br>
+ 
 #启动项目<br>
 1、下载压缩文件或运行
 ```
