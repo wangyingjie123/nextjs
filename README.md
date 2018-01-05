@@ -1,6 +1,21 @@
-# svip-vue
-1、下载文件
-2、npm install
-3、npm run dev(启动项目)
-5、如果要打包的话 npm run build
-项目说明：基于vue-cli全家桶，包括vue-resource，vuex，vue-router，并且已经将webpack2升级到最新的webpack3，效率明显提高。
+ svip-vue
+ ===
+ 基于vue-cli全家桶，包括vue-resource，vuex，vue-router,webpack3
+ ---
+#启动项目<br>
+1、下载压缩文件或运行
+```
+git clone https://github.com/wangyingjie123/svip-vue.git
+```
+2、安装依赖
+```
+npm install
+```
+3、启动项目
+```
+npm run dev
+ ```
+4、如果要打包，运行
+```
+npm run build
+```
