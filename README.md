@@ -4,6 +4,7 @@
  ---
  线上地址
  ---
+ ###移动端项目请在chrome控制台调成手机模式或者用手机查看<br>
  http://www.kuangjifix.com/svip.html#/<br>
  
 #启动项目<br>
