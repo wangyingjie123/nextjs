@@ -1,0 +1,37 @@
+// mixin
+.pull-left {
+	float: left;
+}
+.pull-right {
+	float: right;
+}
+.ellipsis(@w: auto) {
+	width: @w;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	word-wrap: normal;
+}
+.ellipsisLn(@line) {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: @line;
+}
+
+.flex-column {
+	display: flex;
+	flex-direction: column;
+}
+.flex-center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.absolute-center {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%)
+}
